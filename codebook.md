@@ -9,12 +9,24 @@ The script I elaborated works as a function with no input arguments. Detailed in
 
 ##Variable description
 
-"Elements" "Description" "Class"
-"1" "Subject" "A number from 1 to 30 represents each one of the participants on the study" "Integer"
-"2" "Activity" "Each one of the subjects was aked to perform one of the six 
-                        activities listed under this variable: Walking, Walking Upstairs, Walking Downstairs
-                        Sitting, Standing and Laying" "Character"
-"3" "Variables" "Contains the mean of it´s values, according to subject and particular activity" "Numeric"
+
+**Subject** 
+A number from 1 to 30 represents each one of the participants on the study 
+Class = Integer
+
+**Activity** 
+Each one of the subjects was aked to perform one of the six activities listed under this variable: 
+*Walking
+*Walking Upstairs
+*Walking Downstairs
+*Sitting
+*Standing
+*Laying
+Class = Character
+
+**Variables** 
+Contains the mean of itÂ´s values, according to subject and particular activity
+Class = Numeric
 
 ##Variable Names
 
