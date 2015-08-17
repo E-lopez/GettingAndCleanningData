@@ -40,96 +40,183 @@ f = stands for frequency.
 NewNames
 1 subject
 
->Contains codes representing each one of the participant individuals
-
+Contains codes representing each one of the participant individuals
 
 2 ActLabel
 
->Contains labels "Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing and Laying"
+Contains labels "Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing and Laying"
+
+
 3 BodyAccelerometer-mean()-X
+
 4 BodyAccelerometer-mean()-Y
+
 5 BodyAccelerometer-mean()-Z
+
 6 GravityAccelerometer-mean()-X
+
 7 GravityAccelerometer-mean()-Y
+
 8 GravityAccelerometer-mean()-Z
+
 9 tBodyAccelerometerJerk-mean()-X
+
 10 tBodyAccelerometerJerk-mean()-Y
+
 11 tBodyAccelerometerJerk-mean()-Z
+
 12 tBodyGyroscope-mean()-X
+
 13 tBodyGyroscope-mean()-Y
+
 14 tBodyGyroscope-mean()-Z
+
 15 tBodyGyroscopeJerk-mean()-X
+
 16 tBodyGyroscopeJerk-mean()-Y
+
 17 tBodyGyroscopeJerk-mean()-Z
+
 18 tBodyAccelerometerMagnitude-mean()
+
 19 tGravityAccelerometerMagnitude-mean()
+
 20 tBodyAccelerometerJerkMagnitude-mean()
+
 21 tBodyGyroscopeMagnitude-mean()
+
 22 tBodyGyroscopeJerkMagnitude-mean()
+
 23 fBodyAccelerometer-mean()-X
+
 24 fBodyAccelerometer-mean()-Y
+
 25 fBodyAccelerometer-mean()-Z
+
 26 fBodyAccelerometer-meanFreq()-X
+
 27 fBodyAccelerometer-meanFreq()-Y
+
 28 fBodyAccelerometer-meanFreq()-Z
+
 29 fBodyAccelerometerJerk-mean()-X
+
 30 fBodyAccelerometerJerk-mean()-Y
+
 31 fBodyAccelerometerJerk-mean()-Z
+
 32 fBodyAccelerometerJerk-meanFreq()-X
+
 33 fBodyAccelerometerJerk-meanFreq()-Y
+
 34 fBodyAccelerometerJerk-meanFreq()-Z
+
 35 fBodyGyroscope-mean()-X
+
 36 fBodyGyroscope-mean()-Y
+
 37 fBodyGyroscope-mean()-Z
+
 38 fBodyGyroscope-meanFreq()-X
+
 39 fBodyGyroscope-meanFreq()-Y
+
 40 fBodyGyroscope-meanFreq()-Z
+
 41 fBodyAccelerometerMagnitude-mean()
+
 42 fBodyAccelerometerMagnitude-meanFreq()
+
 43 fBodyAccelerometerJerkMagnitude-mean()
+
 44 fBodyAccelerometerJerkMagnitude-meanFreq()
+
 45 fBodyGyroscopeMagnitude-mean()
+
 46 fBodyGyroscopeMagnitude-meanFreq()
+
 47 fBodyGyroscopeJerkMagnitude-mean()
+
 48 fBodyGyroscopeJerkMagnitude-meanFreq()
+
 49 angle(tBodyAccelerometerMean,gravity)
+
 50 angle(tBodyAccelerometerJerkMean),gravityMean)
+
 51 angle(tBodyGyroscopeMean,gravityMean)
+
 52 angle(tBodyGyroscopeJerkMean,gravityMean)
+
 53 angle(X,gravityMean)
+
 54 angle(Y,gravityMean)
+
 55 angle(Z,gravityMean)
+
 56 tBodyAccelerometer-std()-X
+
 57 tBodyAccelerometer-std()-Y
+
 58 tBodyAccelerometer-std()-Z
+
 59 tGravityAccelerometer-std()-X
+
 60 tGravityAccelerometer-std()-Y
+
 61 tGravityAccelerometer-std()-Z
+
 62 tBodyAccelerometerJerk-std()-X
+
 63 tBodyAccelerometerJerk-std()-Y
+
 64 tBodyAccelerometerJerk-std()-Z
+
 65 tBodyGyroscope-std()-X
+
 66 tBodyGyroscope-std()-Y
+
 67 tBodyGyroscope-std()-Z
+
 68 tBodyGyroscopeJerk-std()-X
+
 69 tBodyGyroscopeJerk-std()-Y
+
 70 tBodyGyroscopeJerk-std()-Z
+
 71 tBodyAccelerometerMagnitude-std()"
+
 72 tGravityAccelerometerMagnitude-std()
+
 73 tBodyAccelerometerJerkMagnitude-std()
+
 74 tBodyGyroscopeMagnitude-std()
+
 75 tBodyGyroscopeJerkMagnitude-std()
+
 76 fBodyAccelerometer-std()-X
+
 77 fBodyAccelerometer-std()-Y
+
 78 fBodyAccelerometer-std()-Z
+
 79 fBodyAccelerometerJerk-std()-X
+
 80 fBodyAccelerometerJerk-std()-Y
+
 81 fBodyAccelerometerJerk-std()-Z
+
 82 fBodyGyroscope-std()-X
+
 83 fBodyGyroscope-std()-Y
+
 84 fBodyGyroscope-std()-Z
+
 85 fBodyAccelerometerMagnitude-std()
+
 86 fBodyAccelerometerJerkMagnitude-std()
+
 87 fBodyGyroscopeMagnitude-std()
+
 88 fBodyGyroscopeJerkMagnitude-std()
+
 
