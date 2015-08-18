@@ -1,9 +1,9 @@
 run_analysis <- function(){
       
-      testLoc <- ("C:\\YOUR PATH\\test")
-      trainLoc <- ("C:\\YOUR PATH\\train")
-      featsLoc <- ("C:\\YOUR PATH\\features.txt")
-      ActLablesLoc <- ("C:\\YOUR PATH\\activity_labels.txt")                  
+      testLoc <- (".\\test")
+      trainLoc <- (".\\train")
+      featsLoc <- (".\\features.txt")
+      ActLablesLoc <- (".\\activity_labels.txt")                    
       
       #Merges the training and the test sets to create one data set.
       
@@ -55,10 +55,10 @@ run_analysis <- function(){
             setkey(final, subject, ActLabel)
                   Avg_data <- final[, lapply(.SD, mean), by = .(subject, ActLabel)]
                   
-      if(!file.exists("dataAverage.txt")){
+      if(!file.exists(".\\dataAverage.txt")){
      
-      file.create("C:\\YOUR PATH\\UCIData\\dataAverage.txt")
-      fileDest <- ("C:\\YOUR PATH\\UCIData\\dataAverage.txt")
+      file.create(".\\dataAverage.txt")
+      fileDest <- (".\\UCIData\\dataAverage.txt")
       write.table(Avg_data, fileDest, row.names = FALSE)
                                     }else{print("Error : File already exists")}
       
