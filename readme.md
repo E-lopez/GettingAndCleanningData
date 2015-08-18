@@ -21,13 +21,13 @@ Goal of the project: to clean and extract data from the data set zip, using an R
 
 In this Repo:
 
-    *run_analysis.R : the R-code run on the data set
+    *[run_analysis.R](./run_analysis.R) : the R-code run on the data set
 
-    *dataAverage.txt : the clean data extracted from the original data using run_analysis.R
+    *[dataAverage.txt](./dataAverage.txt) : the clean data extracted from the original data using run_analysis.R
 
-    *CodeBook.md : the CodeBook reference to the variables in Tidy.txt
+    *[CodeBook.md](./CodeBook.md) : the CodeBook reference to the variables in Tidy.txt
 
-    *README.md : the analysis of the code in run_analysis.R
+    *[README.md](./README.md) : the analysis of the code in run_analysis.R
 
 ##Preparation##
 
